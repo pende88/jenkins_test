@@ -12,7 +12,7 @@ namespace test_net_core_mvc.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View("this is a simple test");
         }
 
         public IActionResult About()
